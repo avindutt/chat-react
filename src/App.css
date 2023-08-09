@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.main-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    color: rgb(4, 103, 190);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    background-color: rgb(227, 241, 253);
+    height: max-content;
+    min-height: 30rem;
+    width: 50rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input{
+    color: rgb(38, 85, 204);
+    position: relative;
+    left: 25px;
+    font-size: large;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 10px;
+    outline: none;
+    width: 48.2rem;
+    height: auto;
+    border: 1px solid rgb(68, 101, 245);
 }
 
-.App-link {
-  color: #61dafb;
+.chat-input img{
+    height: 2.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat-input button {
+    background-color: transparent;
+    position: relative;
+    top: 14.49px;
+    right: 2.2em;
+    border: none;
+    cursor: pointer;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.items img {
+    height: 1.5rem;
+}
+
+.items button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.items img:hover{
+    height: 2em;
+    transition: all 0.5s ease-in-out;
+}
+
+.details :nth-child(1){
+    padding: 10px;
+    color: rgb(21, 58, 189);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.details :nth-child(2) {
+    font-size: 13.7px;
+    color: rgb(130, 127, 127);
+}
+
+.items p {
+    margin-left: 1.5em;
+    letter-spacing: 0.2px;
+    color: rgb(61, 60, 60);
 }
