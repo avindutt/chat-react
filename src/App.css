@@ -17,17 +17,16 @@ h1{
     width: 50rem;
 }
 
-input{
+.mentions-input{
     color: rgb(38, 85, 204);
     position: relative;
     font-size: large;
     padding: 15px;
-    border-radius: 30px;
     margin-top: 10px;
     outline: none;
     width: 48.2rem;
     height: auto;
-    border: 1px solid rgb(68, 101, 245);
+    border: 1px solid rgb(14, 57, 248);
 }
 
 .chat-input img{
@@ -83,7 +82,7 @@ input{
 .emotes{
     position: relative;
     max-width: fit-content;
-    top: -50px;
+    top: -53px;
     left: 42.4em;
 }
 
