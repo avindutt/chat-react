@@ -20,7 +20,6 @@ h1{
 input{
     color: rgb(38, 85, 204);
     position: relative;
-    left: 25px;
     font-size: large;
     padding: 15px;
     border-radius: 30px;
@@ -37,9 +36,6 @@ input{
 
 .chat-input button {
     background-color: transparent;
-    position: relative;
-    top: 14.49px;
-    right: 2.2em;
     border: none;
     cursor: pointer;
 }
@@ -82,4 +78,24 @@ input{
     margin-left: 1.5em;
     letter-spacing: 0.2px;
     color: rgb(61, 60, 60);
+}
+
+.emotes{
+    position: relative;
+    max-width: fit-content;
+    top: -50px;
+    left: 42.4em;
+}
+
+.emote{
+    font-size: 40px;
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+
+.emoji-dir{
+    position: absolute;
+    top: 10rem;
+    left: 50.3rem;
 }
